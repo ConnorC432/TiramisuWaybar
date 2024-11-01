@@ -20,7 +20,7 @@ def read_lines(process, process_queue):
 def clear_notif(notif_text):
     for i in range(len(notif_text) - 1, -1, -1):
         print("\uf0f3  " + notif_text[0:i:1], flush=True)
-        time.sleep(0.01)
+        time.sleep(0.0075)
 
 
 def main():
